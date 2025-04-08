@@ -1,0 +1,31 @@
+.mainButton {
+    padding: 12px 24px;
+    background: var(--color-danger); 
+    color: var(--color-white); 
+    border: 3px; 
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+  }
+  
+    .mainButton:hover {
+        background: var(--color-white); 
+        color: var(--color-primary); 
+        transform: translateY(-3px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+
+       
+       
+    }
+  
+  .mainButton:active {
+    transform: translateY(0);
+   
+   
+    
+  }
